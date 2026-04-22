@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+#main-container {
+    background: rgb(243, 38, 226);
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.container:not(#header .container) {
+    padding: 10px;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 2px rgb(107, 102, 102) ;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#aboutme, #myskills, #myworks, #contactme, #footer {
+    margin-top: 50px;
+}
+
+/* Header */
+/* #header {
+    border: 2px solid rebeccapurple;
+} */
+
+#header .container {
+    background: darkblue;
+    border: 5px solid whitesmoke;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#header .container .content {
+    flex-basis: 60%;
+    text-align: center;
+    line-height: 20px;
+}
+
+#header .container .content h4 {
+    letter-spacing: 10px;
+}
+
+#header .container .content h4,
+#header .container .content h1,
+#header .container .content p {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+#header .container .img-div {
+    flex-basis: 40%;
+}
+
+#header .container .img-div img {
+    width: 100%;
+}
+
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+.social-icons a:nth-child(1) {
+    color: rgb(228, 60, 60);
+}
+
+.social-icons a:nth-child(2) {
+    color: pink;
+}
+
+.social-icons a:nth-child(3) {
+    color: blue;
+}
+
+/* About Me */
+#aboutme {
+   margin-top: 50px;
+}
+
+#aboutme .container {
+    align-items: center;
+}
+
+#aboutme .content h2 {
+    line-height: 40px;
+}
+
+#aboutme .container > div {
+    /* border: 3px solid skyblue; */
+    flex-basis: 50%;
+}
+
+#aboutme .img-div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* My Skills */
+#myskills .container > div {
+    flex-basis: 50%;
+}
+
+#myskills .container {
+    align-items: center;
+}
+
+#aboutme {
+   margin-top: 50px;
+}
+
+#myskills .content ul {
+    list-style-type: none;
+}
+
+#myskills .content ul li {
+    border: 2px solid gray;
+    display: inline-block;
+    background: rgba(143, 134, 134, 0.6);
+    padding: 10px 20px;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#myskills .content .title-2,
+#myskills .content .title-3 {
+    margin-top: 30px;
+}
+
+#myskills .img-div {
+    padding: 40px 30px;
+}
+
+#myskills .img-div img {
+    width: 250px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+/* myworks */
+#myworks .container {
+    justify-content: space-between;
+}
+#myworks .container .card {
+    flex-basis: 30%;
+    background: darkblue;
+    color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 1s, background-color 1s;
+}
+#myworks .card:hover {
+    background: rgb(45, 226, 99);
+    transform: scale(1.1);
+}
+#myworks .card h3 {
+    margin: 20px 0;
+}
+
+/* contact me */
+#contactme {
+    margin-top: 50px;
+}
+#contactme .container div {
+    flex-basis: 50%;
+}
+#contactme ul {
+    list-style-type: none;
+    line-height: 30px;
+    font-weight: bold;
+}
+#contactme .form .form-group {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+#contactme .form .form-group input, 
+#contactme .form textarea,
+#contactme .form button {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+}
+#contactme .form .form-group input {
+    flex-basis: 48%;
+    height: 35px;
+    color: #000;
+}
+#contactme .form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    color: #000;
+}
+#contactme .form button {
+    padding: 7px 30px;
+    float: right;
+    background: darkblue;
+    color: #fff;
+}
+
+/* footer */
+#footer {
+    background: darkblue;
+    color: #fff;
+}
+#footer .container {
+    justify-content: space-between;
+    padding: 30px 0 50px 0;
+}
+#footer .container .colum {
+    flex-basis: 32%;
+    line-height: 35px;
+    text-align: center;
+}
+#footer .colum h3 {
+    margin-bottom: 20px;
+}
+#footer .colum ul {
+    list-style-type: none; 
+}
+#footer .colum ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#go-to-top {
+    background: brown;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media (max-width: 600px) {
+    
+}

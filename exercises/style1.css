@@ -1,0 +1,28 @@
+ul {
+    width: 400px;
+    padding: 0px;
+    list-style: none;
+}
+
+#uul li {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+ol {
+    width: 390px;
+    padding: 0px;
+    list-style: none;
+    background: rgb(199, 191, 191);
+    border-left: 10px solid rgb(3, 98, 105);
+    /* margin-left: 40px; */
+}
+
+#collection {
+    border-bottom: 3px solid rgba(18, 30, 207, 0.781);
+}
+
+#ool li {
+    padding: 10px;
+}
+

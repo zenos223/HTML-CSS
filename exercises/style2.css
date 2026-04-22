@@ -1,0 +1,27 @@
+#container {
+    width: 600px;
+    /* height: 500px; */
+    margin: auto;
+    border: 2px solid black;
+}
+
+#item {
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 11px;
+    background: blue;
+    color: antiquewhite;
+}
+
+#iteamm {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid rgb(84, 84, 105);
+}
+
+#iteamm2 {
+    width: 190px;
+    padding-left: 5px;
+   
+}

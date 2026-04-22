@@ -4,9 +4,11 @@
     box-sizing: content-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet+Guides&display=swap');
+
 body {
     width: 100vw;
-    background: url();
+    /* background: url(); */
 }
 
 
@@ -20,8 +22,11 @@ nav {
     background: #fff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0px 4px 10px 3px #00000098;
+    box-shadow: 0px 15px 10px 3px #00000098;
     box-sizing:border-box;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(red, rgb(23, 45, 240));
 }
 
 #logo {
@@ -35,9 +40,12 @@ img {
 }
 
 h1 {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
     font-weight: 700;
     font-size: 1.5rem;
+    font-family: "Playwrite DK Uloopet Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 ul {
@@ -86,7 +94,7 @@ a {
     color: #fff;
     background: #dd0000;
     border: 0;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -95,6 +103,7 @@ a {
     background: #fff;
     color: #000;
     border: 1px solid #000;
+    
 }
 
 #btn2 {
@@ -108,7 +117,7 @@ a {
     color: #fff;
     background: #000;
     border: 0;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
